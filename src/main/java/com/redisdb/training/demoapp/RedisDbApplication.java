@@ -16,9 +16,9 @@ import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 @EntityScan("com.redisdb.training.entity")
 @ComponentScan({ "com.redisdb.training.config","com.redisdb.training.controller", "com.redisdb.training.service", "com.redisdb.training.service.impl"})
 @EnableCaching
-public class Application {
+public class RedisDbApplication {
     public static void main(String[] args) {
-        SpringApplication.run(Application.class, args);
+        SpringApplication.run(RedisDbApplication.class, args);
     }
 
 }

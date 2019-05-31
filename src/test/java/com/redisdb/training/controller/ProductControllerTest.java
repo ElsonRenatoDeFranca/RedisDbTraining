@@ -1,6 +1,6 @@
 package com.redisdb.training.controller;
 
-import com.redisdb.training.demoapp.Application;
+import com.redisdb.training.demoapp.RedisDbApplication;
 import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -18,7 +18,7 @@ import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.
 
 
 @RunWith(SpringRunner.class)
-@SpringBootTest(classes = Application.class)
+@SpringBootTest(classes = RedisDbApplication.class)
 @WebAppConfiguration
 public class ProductControllerTest {
 
